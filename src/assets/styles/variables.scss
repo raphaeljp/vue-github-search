@@ -1,3 +1,12 @@
+/**
+* @breakpoints
+*/
+$breakpoint-xs: 576px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 960px;
+$breakpoint-lg: 1264px;
+$breakpoint-xl: 1900px;
+
 :root {
     /**
     * @color-palette
@@ -35,13 +44,4 @@
     --typography-body-2: regular 16px var(--font-family-segoe);
     --typography-body-2-bold: bold 16px var(--font-family-segoe);
     --typography-overline: regular 14px var(--font-family-segoe);
-
-    /**
-    * @break-points
-    */
-    --break-point-xs: 576px;
-    --break-point-sm: 768px;
-    --break-point-md: 960px;
-    --break-point-lg: 1264px;
-    --break-point-xl: 1900px;
 }

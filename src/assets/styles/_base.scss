@@ -1,6 +1,3 @@
-@import url(./reset.scss);
-@import url(./variables.scss);
-
 html {
     background-color: var(--clr-black);
     min-height: 100vh;
@@ -41,23 +38,23 @@ h6 {
     padding: 12px;
     width: 100%;
 
-    @media only screen and (min-width: var(--break-point-xs)) {
+    @media only screen and (min-width: $breakpoint-xs) {
         max-width: 540px;
     }
 
-    @media only screen and (min-width: var(--break-point-sm)) {
+    @media only screen and (min-width: $breakpoint-sm) {
         max-width: 720px;
     }
 
-    @media only screen and (min-width: var(--break-point-md)) {
+    @media only screen and (min-width: $breakpoint-md) {
         max-width: 960px;
     }
 
-    @media only screen and (min-width: var(--break-point-lg)) {
+    @media only screen and (min-width: $breakpoint-lg) {
         max-width: 1264px;
     }
 
-    @media only screen and (min-width: var(--break-point-xl)) {
+    @media only screen and (min-width: $breakpoint-xl) {
         max-width: 1600px;
     }
 }
