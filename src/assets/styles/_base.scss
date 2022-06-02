@@ -1,7 +1,14 @@
 @import url(./reset.scss);
 @import url(./variables.scss);
 
+html {
+    background-color: var(--clr-black);
+    min-height: 100vh;
+}
+
 body {
+    color: var(--clr-white);
+    font-family: var(--font-family-segoe);
     text-rendering: optimizeLegibility;
 }
 
@@ -34,23 +41,23 @@ h6 {
     padding: 12px;
     width: 100%;
 
-    @media only screen and (min-width: 576px) {
+    @media only screen and (min-width: var(--break-point-xs)) {
         max-width: 540px;
     }
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: var(--break-point-sm)) {
         max-width: 720px;
     }
 
-    @media only screen and (min-width: 960px) {
+    @media only screen and (min-width: var(--break-point-md)) {
         max-width: 960px;
     }
 
-    @media only screen and (min-width: 1264px) {
+    @media only screen and (min-width: var(--break-point-lg)) {
         max-width: 1264px;
     }
 
-    @media only screen and (min-width: 1904px) {
+    @media only screen and (min-width: var(--break-point-xl)) {
         max-width: 1600px;
     }
 }
