@@ -2,6 +2,19 @@
     /**
     * @color-palette
     */
+
+    --clr-black: #000000;
+    --clr-white: #ffffff;
+    --clr-grey: #737373;
+    --clr-grey-light: #D4D4D4;
+    --clr-grey-dark: #404040;
+    --clr-primary: #6D28D9;
+    --clr-primary-light: #8B5CF6;
+    --clr-primary-dark: #4C1D95;
+    --clr-secondary: #22C55E;
+    --clr-secondary-light: #86EFAC;
+    --clr-secondary-dark: #15803D;
+
   
     /**
     * @typography
@@ -22,4 +35,13 @@
     --typography-body-2: regular 16px var(--font-family-segoe);
     --typography-body-2-bold: bold 16px var(--font-family-segoe);
     --typography-overline: regular 14px var(--font-family-segoe);
+
+    /**
+    * @break-points
+    */
+    --break-point-xs: 576px;
+    --break-point-sm: 768px;
+    --break-point-md: 960px;
+    --break-point-lg: 1264px;
+    --break-point-xl: 1900px;
 }
