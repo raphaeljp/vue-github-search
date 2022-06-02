@@ -1,0 +1,56 @@
+@import url(./reset.scss);
+@import url(./variables.scss);
+
+body {
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font: var(--typography-headline-1)
+}
+
+h2 {
+    font: var(--typography-headline-2)
+}
+
+h3 {
+    font: var(--typography-headline-3)
+}
+
+h4 {
+    font: var(--typography-headline-4)
+}
+
+h5 {
+    font: var(--typography-headline-5)
+}
+
+h6 {
+    font: var(--typography-headline-6)
+}
+
+.container {
+    margin: 0 auto;
+    padding: 12px;
+    width: 100%;
+
+    @media only screen and (min-width: 576px) {
+        max-width: 540px;
+    }
+
+    @media only screen and (min-width: 768px) {
+        max-width: 720px;
+    }
+
+    @media only screen and (min-width: 960px) {
+        max-width: 960px;
+    }
+
+    @media only screen and (min-width: 1264px) {
+        max-width: 1264px;
+    }
+
+    @media only screen and (min-width: 1904px) {
+        max-width: 1600px;
+    }
+}

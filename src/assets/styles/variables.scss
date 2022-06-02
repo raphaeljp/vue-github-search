@@ -1,0 +1,25 @@
+:root {
+    /**
+    * @color-palette
+    */
+  
+    /**
+    * @typography
+    * - sizes
+    * - font-family
+    */
+    --font-family-segoe: 'Segoe UI', sans-serif;
+    --typography-headline-1: bold 48px var(--font-family-segoe);
+    --typography-headline-2: bold 40px var(--font-family-segoe);
+    --typography-headline-3: bold 32px var(--font-family-segoe);
+    --typography-headline-4: bold 28px var(--font-family-segoe);
+    --typography-headline-5: bold 24px var(--font-family-segoe);
+    --typography-headline-6: bold 20px var(--font-family-segoe);
+    --typography-subtitle: bold 18px var(--font-family-segoe);
+    --typography-label: bold 16px var(--font-family-segoe);
+    --typography-body-1: regular 18px var(--font-family-segoe);
+    --typography-body-1-bold: bold 18px var(--font-family-segoe);
+    --typography-body-2: regular 16px var(--font-family-segoe);
+    --typography-body-2-bold: bold 16px var(--font-family-segoe);
+    --typography-overline: regular 14px var(--font-family-segoe);
+}

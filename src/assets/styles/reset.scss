@@ -1,0 +1,26 @@
+* {
+    min-height: unset;
+    min-width: unset;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: none;
+  }
+  
+  fieldset, button {
+    border: none;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
