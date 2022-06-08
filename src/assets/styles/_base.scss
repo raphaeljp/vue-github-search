@@ -33,6 +33,14 @@ h6 {
     font: var(--typography-headline-6)
 }
 
+code {
+    background-color: var(--clr-grey-dark);
+    border-radius: 4px;
+    border: solid 1px var(--clr-grey);
+    color: var(--clr-secondary-dark);
+    padding: 2px 4px !important;
+}
+
 .container {
     margin: 0 auto;
     padding: 12px;
@@ -57,4 +65,16 @@ h6 {
     @media only screen and (min-width: $breakpoint-xl) {
         max-width: 1600px;
     }
+}
+
+.muted {
+    opacity: 0.8;
+}
+
+.unselectable {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

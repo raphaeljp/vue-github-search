@@ -1,7 +1,32 @@
-# Vue 3 + Vite
+# GitHub Repository Search APP
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This app uses VueJS and the GitHub API to enable the user to search for
+GitHub repositories and see its contributors.
 
-## Recommended IDE Setup
+## Project Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+### Installing the dependencies
+Download this repository, navigate into the root folder and run:
+```
+npm install
+```
+
+### Compile and hot reload
+After installing the dependencies, run:
+```
+npm run dev
+```
+
+This will start a local server at [http://localhost:3000](http://localhost:3000).
+
+
+## Recommended environment
+- NPM version 8+
+- NODE version 16+
+- Chrome version 98+
+
+
+## TODO
+- Persisted data;
+- Unit tests;
+- E2E tests;
